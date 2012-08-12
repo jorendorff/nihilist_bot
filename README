@@ -4,6 +4,10 @@ IRC robot designed to post to a Tumblelog.  Uses Cinch IRC bot library.
 Currently can send to tumblr.com sites.  Site posting back-ends are pluggable.
 Filters are pluggable.
 
+To run the tests:
+
+    $ rake bot:isolate:sh'[rspec spec]'
+
 Rick Bradley (rick@rickbradley.com)
 
 TODO:
